@@ -12,18 +12,18 @@ public class Main {
         int count = 1;
 
         for (int i = 0; i < a1.length; i++) {
-            System.out.println(a1[i]);
+            System.out.println(a1[i]); int indexValue = search(a1,23);
+//        if(indexValue == -1)
+//        {
+//            System.out.println("Elements not found");
+//        }
+//        else {
+//            System.out.println("Element is found and its index is " + indexValue);
+//        }
+
         }
 
-        int indexValue = search(a1,23);
-        if(indexValue == -1)
-        {
-            System.out.println("Elements not found");
-        }
-        else {
-            System.out.println("Element is found and its index is " + indexValue);
-        }
-
+//
         Presmetki obj = new Presmetki();
 
 
